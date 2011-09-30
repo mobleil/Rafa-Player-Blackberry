@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns:rim="http://www.blackberry.com/ns/widgets" version="1.7.0" rim:header="RIM-Widget:rim/widget" xmlns="http://www.w3.org/ns/widgets">
+  <rim:navigation mode="focus" />
+  <name>Politeknik Telkom</name>
+  <description>Mobile Polteknik Telkom For Blackberry</description>
+  <author href="http://www.politekniktelkom.ac.id/" rim:copyright="Politeknik Telkom" email="support@politekniktelkom.ac.id">Support</author>
+  <icon src="images\icon.png" />
+  <icon src="images\icon.png" rim:hover="true" />
+  <content src="start.htm" />
+  <feature id="blackberry.ui.menu" required="true"/>
+  <feature id="blackberry.system.event" required="true"/>
+  <feature id="blackberry.ui.Spinner" />
+  <access uri="http://m.tukuya.com" subdomains="true" />
+  <access uri="http://andrias-pc" subdomains="true" />
+  <rim:loadingScreen backgroundColor="#FFFFFF" foregroundImage="images\foreground.png" onFirstLaunch="true">
+    <rim:transitionEffect type="slidein" />
+  </rim:loadingScreen>
+  <license href="http://www.motion.co.id">
+   Copyright (c) 2011 PT Mobile Solution.
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+   NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+   ACTION OF CONTRACT, INSULT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+   </license>
+</widget>

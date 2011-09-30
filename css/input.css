@@ -1,0 +1,243 @@
+/*
+Copyright (c) 2010 Research In Motion Limited
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+
+body, html {
+	padding:0;
+	margin:0;
+	font-family: BBAlpha Sans;
+	font-size: 15pt;
+	overflow:visible;
+}
+
+body {
+	/*background-image: url('../images/stripes01.png');*/
+	background-color: #C9E5F3;
+	overflow:hidden;
+}
+
+h2 {
+	margin-top: 0pt;
+	margin-right: 0pt;
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+}
+
+h2#bannerlow {
+	background-color: transparent;
+	background-image: url("../images/logo320b.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center top;
+	width: 320px;
+	height: 120px;
+	margin-right: auto;
+	margin-bottom: -55px;
+	margin-left: auto;
+}
+h2#bannermed{
+	background-color: transparent;
+	background-image: url("../images/logo360b.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center top;
+	width: 360px;
+	height: 120px;
+	margin-right: auto;
+	margin-bottom: -55px;
+	margin-left: auto;
+}
+h2#bannerhigh {
+	background-color: transparent;
+	background-image: url("../images/logo480b.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center top;
+	width: 480px;
+	height: 120px;
+	margin-right: auto;
+	margin-bottom: -55px;
+	margin-left: auto;
+}
+
+.arrowList
+{
+	vertical-align: middle;
+	/*height: 40px;*/
+	width:100%;
+}
+
+.arrowList:hover, .arrowListAds:hover
+{
+	background-color:#2175F7;
+}
+
+.arrowListAds
+{
+	vertical-align: middle;
+	/*height: 40px;*/
+	width:100%;
+	background-color:yellow;
+}
+
+.arrowListText
+{
+	/*line-height:40px;*/
+	padding-left:7px;	
+	font-size: 15pt;	
+	display:inline;
+	width:97%;
+	float: left;
+}
+
+.arrowList:hover .arrowListText, .arrowListAds:hover .arrowListText
+{
+	color:White;
+}
+
+.listSeparator
+{
+	border-bottom: solid 1px Silver;
+	margin:2px;
+}
+
+.arrow
+{
+	position:relative;
+	/*float:right;*/
+	display:inline;
+	/*margin-right: 5px;*/
+	margin-top: 6px;
+}
+
+.name
+{
+	float: left;
+}
+.snipset {
+	float: right;
+	font-size: 15px;
+	color: #CCCCCC;
+}
+.clear {
+	clear: both;
+}
+.desc {
+	font-size: 14px;
+}
+
+.label 
+{
+	position:relative;
+	float:left;
+	padding-left:7px;	
+}
+
+.row
+{
+	position:relative;	
+	
+}
+
+.rightAlign 
+{
+	display:inline; 
+	float:right;
+	margin-right: 5px;
+}
+
+.tooltipRoot 
+{
+	position: relative;
+	color: Blue;
+}
+
+ 
+.tooltipRoot:hover .tooltip {
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  display: block;
+  background-color: White;
+  text-decoration:none;
+  border: 1px solid Black;
+}
+
+.tooltip 
+{
+	display: none;
+	text-decoration:none;
+	color: Black;
+}
+
+.preload-low {
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 2000;
+	display: none;	
+	width:50px;
+	position: fixed;
+	left: 135px;
+	top: 88px;
+}
+
+.preload-med {
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 2000;
+	display: none;	
+	width:50px;
+	position: fixed;
+	left: 155px;
+	top: 225px;
+}
+
+.preload-high {
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 2000;
+	display: none;	
+	width:50px;
+	position: fixed;
+	left: 215px;
+	top: 148px;
+}
+
+.b1, .b2, .b3, .b4{font-size:1px; overflow:hidden; display:block;}
+.b1 {height:1px; background:#CCCCCC; margin:0 5px;}
+.b2 {height:1px; border-right:2px solid #CCCCCC; border-left:2px solid #CCCCCC; margin:0 3px;background:#FFFFFF;}
+.b3 {height:1px; border-right:1px solid #CCCCCC; border-left:1px solid #CCCCCC; margin:0 2px;background:#FFFFFF;}
+.b4 {height:2px; border-right:1px solid #CCCCCC; border-left:1px solid #CCCCCC; margin:0 1px;background:#FFFFFF;}
+.contentb {border-right:1px solid #CCCCCC; border-left:1px solid #CCCCCC;background:#FFFFFF;}
+.contentb div {
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+}
+
+.gbr {
+	margin-right: 10px;
+	width: 20px;
+	margin-top: 2px;
+}
+.pre {
+	margin-right: 10px;
+}
